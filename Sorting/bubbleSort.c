@@ -13,8 +13,9 @@ void bubbleSort(int *a,int n){
     int isSorted=0;
     for(int i=0;i <n-1;i++){  //for the number of passes
         isSorted=1;//made adaptive
-        printf("working in parse %d \n",i+1);
+        printf("working in pass %d \n",i+1);
         for(int j=0;j<(n-1-i);j++){  //for the comparison 
+            // printf("entered\n");
            if(a[j]>a[j+1]){
             // swap
             temp=a[j];
