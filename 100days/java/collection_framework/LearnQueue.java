@@ -13,7 +13,5 @@ public class LearnQueue {
         System.out.println(names.poll());
         System.out.println(names);
         System.out.println(names.peek());
-
     }
-    
 }
